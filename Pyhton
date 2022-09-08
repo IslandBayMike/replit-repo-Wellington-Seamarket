@@ -100,3 +100,37 @@ in a way, regardless of evidence and/or advice to suggest the person is wrong in
 motivation. 
 
 ### Thus finishes the "how to Finalize the github repository list' - Mike Engel Student 20200479 I.T.5016
+
+import turtle
+
+t = turtle.Turtle()
+name = input ("what is your name? ")
+print ('Hello '+name.title() +', Tena Koe')
+
+
+valid_response = False
+while valid_response == False:
+  question = input("Do you like the fish from Wellington seamarket on Lampton Quay? Enter Ae or Kao: ")
+  if question == "Ae":
+    valid_response = True 
+    print("Fantastic Tu Meke")
+
+for c in ['red', 'green', 'blue', 'yellow', 'orange', 'pink', 'black', 'yellow', 'green']:
+    t.color(c)
+    t.forward(25)
+    t.left(45)
+    t.right(5)
+
+
+
+
+
+
+
+
+
+    
+#  elif question == "Kao"
+#    valid_resonse = True
+ #   print("Oh Dear")
+
