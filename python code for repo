@@ -1,1 +1,32 @@
 
+
+
+# this program is meant to work thus; person is asked name, input name returned, yes or no for the question yes results in the picture and no results in text; oh dear. 
+import turtle
+
+t = turtle.Turtle()
+name = input ("what is your name? enter your name ")
+print ('Hello '+name.title() +', Tena Koe')
+
+
+#valid_response = False
+#while valid_response == False:
+
+question = input("Do you like the fish from Wellington seamarket on Lampton Quay? Enter Ae or Kao: ")
+if question == ("Ae"):
+    #valid_response = True 
+    print("Fantastic Tu Meke")
+
+    for c in ['red', 'green', 'blue', 'yellow', 'orange', 'pink', 'black', 'yellow', 'green']:
+      t.color(c)
+      t.forward(25)
+      t.left(45)
+      t.right(5)
+    
+  
+elif question == ("Kao"):
+   # valid_resonse = True
+    print("Oh Dear!")
+    
+    
+    ###Program ends 09 September 2022
